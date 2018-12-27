@@ -1,6 +1,6 @@
 {
   "name": "vue-timepicker-wheel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue timepicker with mouse wheel",
   "main": "dist/vue-timepicker-wheel.js",
   "private": false,

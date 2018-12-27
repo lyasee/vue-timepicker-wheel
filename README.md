@@ -23,10 +23,12 @@ npm i vue-timepicker-wheel
 </template>
 
 <script>
-import VueTimepickerWheel from 'vue-timepicker-wheel'; 
+import VueTimepickerWheel from 'vue-timepicker-wheel'
 
 export default {
-  ...
+  components: {
+    VueTimepickerWheel
+  },
   data: () => ({
     time: '23:59' // 23 hour, 59 minute
   })
