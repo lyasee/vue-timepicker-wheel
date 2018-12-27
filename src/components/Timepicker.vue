@@ -122,7 +122,7 @@ export default {
   watch: {
     time (time) {
       if (time) {
-        const tiems = time.toString().split(':')
+        const times = time.toString().split(':')
         this.hour = times[0]
         this.minute = times[1]
       }
@@ -236,6 +236,7 @@ export default {
     },
     boxStyle () {
       const css = {
+        textAlign: 'center',
         backgroundColor: this.color,
         height: 'auto',
         width: this.width
@@ -365,9 +366,11 @@ export default {
     cursor: pointer;
   }
   .time-row-up {
+    text-align: center;
     margin-top: 10px;
   }
   .time-row-down {
+    text-align: center;
     margin-bottom: -10px;
   }
 </style>
