@@ -80,6 +80,10 @@ export default {
       type: String,
       default: '50px' // '70px'
     },
+    timeWeight: {
+      type: String,
+      default: '500'
+    },
     time: {
       type: String,
       default: '--:--'
@@ -253,14 +257,17 @@ export default {
     colonStyle () {
       return {
         color: this.timeColor,
-        fontSize: this.timeSize
+        fontSize: this.timeSize,
+        fontWeight: this.timeWeight
       }
     },
     timeStyle (isClick) {
       return {
         color: this.timeColor,
         fontSize: this.timeSize,
-        opacity: isClick ? 1 : .6
+        opacity: isClick ? 1 : .6,
+        marginTop: this.arrow ? '-10px' : '0px',
+        fontWeight: this.timeWeight
       }
     },
     arrowTimeStyle (isClick) {
@@ -342,13 +349,11 @@ export default {
 
 <style>
   .box-inner-colon {
-    font-weight: 500;
     display: inline-flex;
     margin: 0px;
     padding: 0px;
   }
   .box-inner-time {
-    font-weight: 500;
     opacity: .6;
     display: inline-flex;
     justify-content: center;

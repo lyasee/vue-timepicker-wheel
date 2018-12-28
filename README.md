@@ -39,17 +39,18 @@ export default {
 
 | Prop                          | Type            | Default     | Description                              |
 |-------------------------------|-----------------|-------------|------------------------------------------|
-| time                          | String          | --:--       | Time value of the datepicker             |
+| time                          | String          | --:--       | Time value of the timepicker             |
 | width                         | String          | 300px       | Box Width                                |
 | color                         | String          | #1867c0     | Box Background Color                     |
 | time-color                    | String          | white       | Time Color                               |
 | time-size                     | String          | 50px        | Time Font Size                           |
+| time-weight                   | String          | 500         | Time Font Weight                         |
 | arrow                         | Boolean         | true        | arrow up/down button                     |
 | shadow                        | Boolean         | false       | Box Shadow                               |
 
 ## Events
 
-These events are emitted on actions in the datepicker
+These events are emitted on actions in the timepicker
 
 | Event             | Output     | Description                          |
 |-------------------|------------|--------------------------------------|
