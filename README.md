@@ -2,11 +2,15 @@
 
 A timepicker Vue component. Compatible with Vue 2.x
 
+- [Demo](#demo)
 - [Install](#install)
 - [Usage](#usage)
 - [Props](#available-props)
 - [Events](#events)
 
+## Demo
+[Demo](https://jsfiddle.net/lyasee/eywraw8t/525798/)
+[Demo vuetify](https://jsfiddle.net/lyasee/s15zthdm/16/)
 
 ## Install
 
